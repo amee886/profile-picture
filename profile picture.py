@@ -1,6 +1,5 @@
 from PIL import Image
 image=Image.open("example.jpg")
-rotated_image=image.rotate(45)
 RGB_image=image.convert("RGB")
 red,green,blue=image.split()
 
